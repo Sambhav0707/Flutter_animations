@@ -29,6 +29,29 @@ A comprehensive demonstration of Flutter's implicit animation system using built
 
 [View Project Details →](./Implicit_Animations/README.md)
 
+### 2. [Flutter Implicit Animations 2](./Implicit_Animations_2/flutter_implicit_animations_2/)
+
+**Status**: ✅ Complete  
+**Difficulty**: 🟡 Intermediate  
+**Last Updated**: August 2025
+
+An advanced demonstration of Flutter's `TweenAnimationBuilder` with interactive animations and image transitions. Shows how to create smooth, controlled animations using sliders and custom interpolation.
+
+**Key Features:**
+- TweenAnimationBuilder for smooth value interpolation
+- Interactive slider control for animation progress
+- Image transitions between Spiderman and Batman using AnimatedOpacity
+- Color interpolation using Color.lerp() from black to grey
+- Stack widget for layered image positioning
+
+**Technologies Used:**
+- Flutter SDK 3.7.0+
+- Dart
+- Material Design
+- Custom image assets
+
+[View Project Details →](./Implicit_Animations_2/flutter_implicit_animations_2/README.md)
+
 ---
 
 ## 🚀 Quick Start
@@ -72,6 +95,7 @@ A comprehensive demonstration of Flutter's implicit animation system using built
 - [ ] **Navigation** - App routing and navigation patterns
 
 ### Intermediate Level 🟡
+- [x] **Advanced Implicit Animations** - TweenAnimationBuilder and interactive animations
 - [ ] **Advanced State Management** - Provider, Riverpod, or Bloc
 - [ ] **API Integration** - HTTP requests and JSON parsing
 - [ ] **Local Storage** - SharedPreferences, SQLite, Hive
@@ -108,13 +132,20 @@ A comprehensive demonstration of Flutter's implicit animation system using built
 ```
 flutter_implicit_animations_example/
 ├── README.md                    # This global README
-├── Implicit_Animations/         # Animation examples project
+├── Implicit_Animations/         # Basic animation examples project
 │   ├── README.md               # Project-specific documentation
 │   ├── lib/
 │   │   ├── main.dart
 │   │   └── implicit_animations.dart
 │   ├── pubspec.yaml
 │   └── ...
+├── Implicit_Animations_2/      # Advanced animation examples project
+│   └── flutter_implicit_animations_2/
+│       ├── README.md           # Project-specific documentation
+│       ├── lib/
+│       ├── assets/             # Image assets (Spiderman, Batman)
+│       ├── pubspec.yaml
+│       └── ...
 ├── [Future_Project_1]/         # Placeholder for future projects
 ├── [Future_Project_2]/         # Placeholder for future projects
 └── ...
