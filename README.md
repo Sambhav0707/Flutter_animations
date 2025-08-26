@@ -29,7 +29,7 @@ A comprehensive demonstration of Flutter's implicit animation system using built
 
 [View Project Details →](./Implicit_Animations/README.md)
 
-### 2. [Flutter Implicit Animations 2](./Implicit_Animations_2/flutter_implicit_animations_2/)
+### 2. [Flutter Implicit Animations 2](./flutter_implicit_animations_2/)
 
 **Status**: ✅ Complete  
 **Difficulty**: 🟡 Intermediate  
@@ -50,7 +50,32 @@ An advanced demonstration of Flutter's `TweenAnimationBuilder` with interactive 
 - Material Design
 - Custom image assets
 
-[View Project Details →](./Implicit_Animations_2/flutter_implicit_animations_2/README.md)
+[View Project Details →](./flutter_implicit_animations_2/README.md)
+
+### 3. [Flutter Explicit Animations](./flutter_explicit_animations/)
+
+**Status**: ✅ Complete  
+**Difficulty**: 🔴 Advanced  
+**Last Updated**: August 2025
+
+A comprehensive demonstration of Flutter's explicit animation system using `AnimationController` and `AnimatedBuilder`. Features a Star Wars-inspired animation with custom clipping paths and sequential animation sequences.
+
+**Key Features:**
+- AnimationController for precise animation control
+- CustomClipper implementation for dynamic beam effects
+- Sequential animation timing with multiple controllers
+- AnimatedBuilder for custom animation widgets
+- Custom gradient animations with mathematical interpolation
+- Star Wars-themed spaceship and text animations
+
+**Technologies Used:**
+- Flutter SDK 3.7.0+
+- Dart
+- Material Design
+- Custom image assets (spaceship, star field)
+- AnimationController and AnimatedBuilder
+
+[View Project Details →](./flutter_explicit_animations/README.md)
 
 ---
 
@@ -99,9 +124,9 @@ An advanced demonstration of Flutter's `TweenAnimationBuilder` with interactive 
 - [ ] **Advanced State Management** - Provider, Riverpod, or Bloc
 - [ ] **API Integration** - HTTP requests and JSON parsing
 - [ ] **Local Storage** - SharedPreferences, SQLite, Hive
-- [ ] **Custom Animations** - Explicit animations and controllers
 
 ### Advanced Level 🔴
+- [x] **Explicit Animations** - AnimationController, AnimatedBuilder, and CustomClipper
 - [ ] **Architecture Patterns** - Clean Architecture, MVVM
 - [ ] **Testing** - Unit tests, widget tests, integration tests
 - [ ] **Performance Optimization** - Memory management, rendering optimization
@@ -139,13 +164,20 @@ flutter_implicit_animations_example/
 │   │   └── implicit_animations.dart
 │   ├── pubspec.yaml
 │   └── ...
-├── Implicit_Animations_2/      # Advanced animation examples project
-│   └── flutter_implicit_animations_2/
-│       ├── README.md           # Project-specific documentation
-│       ├── lib/
-│       ├── assets/             # Image assets (Spiderman, Batman)
-│       ├── pubspec.yaml
-│       └── ...
+├── flutter_implicit_animations_2/  # Advanced implicit animations project
+│   ├── README.md               # Project-specific documentation
+│   ├── lib/
+│   ├── assets/                 # Image assets (Spiderman, Batman)
+│   ├── pubspec.yaml
+│   └── ...
+├── flutter_explicit_animations/    # Advanced explicit animations project
+│   ├── README.md               # Project-specific documentation
+│   ├── lib/
+│   │   ├── main.dart
+│   │   └── home_page.dart
+│   ├── assets/                 # Image assets (spaceship, star field)
+│   ├── pubspec.yaml
+│   └── ...
 ├── [Future_Project_1]/         # Placeholder for future projects
 ├── [Future_Project_2]/         # Placeholder for future projects
 └── ...
@@ -189,6 +221,7 @@ I welcome contributions to improve these examples! Here's how you can help:
 ## 📋 Roadmap
 
 ### Upcoming Projects
+- [x] **Explicit Animations** - AnimationController, AnimatedBuilder, CustomClipper ✅
 - [ ] **State Management Examples** - Provider, Riverpod, Bloc patterns
 - [ ] **API Integration** - REST API calls, JSON parsing, error handling
 - [ ] **Local Storage** - Database integration, file handling
